@@ -64,7 +64,7 @@ header {
     transition: all 0.3s ease-in-out;
 }
 
-.navbar ul li a {
+.navbar  ul li a {
     color: rgb(255, 255, 255);
     text-decoration: none;
     font-size: 20px;
@@ -72,22 +72,22 @@ header {
     transition: all 0.3s ease-in-out;
 }
 
-.navbar ul li a:hover {
+.navbar  ul li a:hover {
     color: #9321f7;
     text-decoration: underline;
 }
-.navbar ul li a.active {
+.navbar  ul li a.active {
     color: red;
     text-decoration: underline;
 }
-.navbar ul li a.active:hover {
+.navbar  ul li a.active:hover {
     color: red;
     text-decoration: underline;
 }
-.navbar ul li:hover {
+.navbar  ul li:hover {
     transform: scale(1.1);
 }
-.navbar ul li::after {
+.navbar . ul li::after {
     content: '';
     position: absolute;
     width: 0;
@@ -98,10 +98,34 @@ header {
     transition: all 0.3s ease-in-out;
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 main {
     padding: 20px;
-    max-width: 1200px;
+    max-width: 90%;
     margin: auto;
+    justify-content: left;
 }
 #courses{
     display: flex;
