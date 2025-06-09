@@ -112,3 +112,8 @@ main {
 
 
 }
+
+main  h1{
+    display: flex;
+    color: #9321f7;
+}
