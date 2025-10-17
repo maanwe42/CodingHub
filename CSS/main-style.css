@@ -9,7 +9,7 @@ body {
 }
 
 header {
-    background: rgba(0, 0, 0, 0.7)url(/Images/wallpaper-hd-laptop.jpg);
+    background: rgba(0, 0, 0, 0.7)url(Images/wallpaper-hd-laptop.jpg);
     background-size: cover;
     background-blend-mode: darken;
     position: sticky;
@@ -122,7 +122,7 @@ header {
 
 
 main {
-    background: rgba(0, 0, 0, 0.7)url(/Images/wallpaper-hd-laptop.jpg);
+    background: rgba(0, 0, 0, 0.7)url(Images/wallpaper-hd-laptop.jpg);
     background-blend-mode: darken;
     background-size: cover;
     min-height: 90vh;
