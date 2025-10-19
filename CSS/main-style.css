@@ -180,3 +180,109 @@ main p{
     margin-bottom: 20px;
     background: transparent;
 }
+
+/* Responsive breakpoints */
+@media (max-width: 900px) {
+    .navbar {
+        width: 100%;
+        padding: 10px 14px;
+    }
+
+    .navbar .logo {
+        width: 120px;
+    }
+
+    .navbar .logo img {
+        width: 36px;
+        border-width: 2px;
+    }
+
+    .navbar ul {
+        margin-left: 10px;
+        gap: 12px;
+        flex-wrap: wrap;
+    }
+
+    .navbar ul li {
+        margin: 0 12px;
+    }
+
+    main h1 {
+        width: 60%;
+        font-size: 28px;
+        padding: 10px 14px;
+    }
+
+    main h2 {
+        font-size: 26px;
+    }
+
+    main p {
+        font-size: 20px;
+    }
+
+    #courses {
+        padding: 10px;
+    }
+}
+
+@media (max-width: 600px) {
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 8px 12px;
+    }
+
+    .navbar .logo {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        margin-bottom: 8px;
+    }
+
+    .navbar .logo img {
+        width: 34px;
+    }
+
+    .navbar ul {
+        flex-direction: column;
+        align-items: flex-start;
+        margin-left: 0;
+        gap: 8px;
+        width: 100%;
+    }
+
+    .navbar ul li {
+        margin: 6px 0;
+        transform: none;
+    }
+
+    .navbar ul li a {
+        font-size: 16px;
+        padding: 6px 0;
+    }
+
+    main h1 {
+        width: 95%;
+        font-size: 22px;
+    }
+
+    main h2 {
+        font-size: 22px;
+    }
+
+    main p {
+        font-size: 18px;
+        padding: 8px;
+    }
+
+    #work {
+        font-size: 22px;
+        padding: 12px;
+    }
+
+    .navbar {
+        box-shadow: none;
+    }
+}
+
