@@ -124,3 +124,39 @@ text-decoration: none;
 .search-box button:hover span{
     color: blueviolet;
 }
+.banner{
+    background: rgba(0, 0, 0, 0.7)url(/Images/background.jpg);
+    background-blend-mode: darken;
+    background-size: cover; 
+    height: 100vh;
+    cursor: all-scroll;
+    justify-content: center;
+    text-align: center;
+    color: white;
+}
+.banner-content{
+    position: relative;
+    top: 40%;
+    transform: translateY(-50%);
+}
+.banner-content h1{
+    font-size: 40px;
+    margin-bottom: 20px;
+    color: aqua;
+}
+.banner-content p{
+    font-size: 25px;
+    margin-bottom: 30px;
+    color: red;
+    background-color: white;
+}
+.banner-content .btn{
+    text-decoration: none;
+    background-color: blueviolet;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 30px;
+    font-size: 20px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
