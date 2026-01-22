@@ -121,3 +121,6 @@ text-decoration: none;
 .search-box button span{
     font-size: 20px;
 }
+.search-box button:hover span{
+    color: blueviolet;
+}
