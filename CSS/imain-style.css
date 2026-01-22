@@ -10,35 +10,61 @@ header {
     background-blend-mode: darken;
     background-size: cover;
 }
+
 .navbar {
     display: flex;
     justify-content: left;
+    margin: auto;
+    position: relative;
 }
-.logo{
+
+.logo {
     display: flex;
     align-items: center;
 }
-.logo img{
+
+.logo img {
     height: 40px;
     margin: 10px 20px;
     border: 3px cyan solid;
     border-radius: 100%;
 }
+
 .menu_left {
     display: flex;
     list-style: none;
     align-items: center;
-    margin-left: 40px;
 }
+
 .menu_left li {
-    margin: 0 15px;
+    margin: 0 10px;
+    position: relative;
 }
+
 .menu_left li a {
     text-decoration: none;
     color: white;
-    font-size: 18px;
+    font-size: 17px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    padding: 6px 12px;
+    padding: 1px 10px;
     border-radius: 4px;
     transition: background-color 0.3s, color 0.3s;
+    border-radius: 10px;
+}
+    
+.menu_left li a:hover {
+    color: rgb(132, 0, 255);
+}
+
+.dropdown {
+    cursor: pointer;
+}
+
+.material-symbols-outlined {
+    vertical-align: middle;
+    font-size: 40px;
+}
+
+.material-symbols-outlined:hover {
+    color: cyan;
 }
