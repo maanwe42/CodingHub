@@ -147,6 +147,11 @@ text-decoration: none;
 .banner-content p{
     font-size: 18px;
     margin-bottom: 30px;
+    color: red;
+    background-color: whitesmoke;
+    border: 1px solid whitesmoke;
+    border-radius: 10px;
+    margin: 10px 300px;
 }
 .banner-content .btn{
     text-decoration: none;
