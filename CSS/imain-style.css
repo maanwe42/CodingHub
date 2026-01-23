@@ -145,18 +145,19 @@ text-decoration: none;
     color: aqua;
 }
 .banner-content p{
-    font-size: 25px;
+    font-size: 18px;
     margin-bottom: 30px;
-    color: red;
-    background-color: white;
 }
 .banner-content .btn{
     text-decoration: none;
-    background-color: blueviolet;
+    background-color: rgb(134, 4, 255);
     color: white;
     padding: 10px 20px;
     border-radius: 30px;
     font-size: 20px;
     transition: background-color 0.3s, color 0.3s;
 }
-
+.banner-content .btn:hover{
+    background-color: whitesmoke;
+    color: black;
+}
