@@ -92,7 +92,7 @@ header {
 .menu_right li a{
 color: white;
 text-decoration: none;
-background-color: blueviolet;
+background-color: rgb(132, 0, 255);
 padding: 8px 16px;
 border-radius: 15px;
 font-size: 17px;
