@@ -5,10 +5,11 @@
 
 header {
     top: 0;
-    position: sticky;
+    position: fixed;
     background: rgba(0, 0, 0, 0.7)url(/Images/background.jpg);
     background-blend-mode: darken;
     background-size: cover;
+    width: 100%;
 }
 
 .navbar {
