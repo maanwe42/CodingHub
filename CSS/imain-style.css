@@ -54,7 +54,7 @@ header {
     transition: background-color 0.3s, color 0.3s;
     border-radius: 10px;
 }
-    
+
 .menu_left li a:hover {
     color: rgb(132, 0, 255);
 }
@@ -62,7 +62,8 @@ header {
 .dropdown {
     cursor: pointer;
 }
-.dropdown span{
+
+.dropdown span {
     margin-left: -13px;
 }
 
@@ -75,7 +76,7 @@ header {
     color: cyan;
 }
 
-.dropdown-menu{
+.dropdown-menu {
     display: none;
 }
 
@@ -86,79 +87,94 @@ header {
     align-items: center;
     width: 23%;
 }
+
 .menu_right li {
     margin: 0 30px;
     position: relative;
 }
-.menu_right li a{
-color: white;
-text-decoration: none;
-background-color: rgb(132, 0, 255);
-padding: 8px 16px;
-border-radius: 15px;
-font-size: 17px;
+
+.menu_right li a {
+    color: white;
+    text-decoration: none;
+    background-color: rgb(132, 0, 255);
+    padding: 8px 16px;
+    border-radius: 15px;
+    font-size: 17px;
 }
-.menu_right li a:hover{
+
+.menu_right li a:hover {
     color: black;
 }
+
 .search-box {
     display: flex;
     align-items: center;
     border-radius: 20px;
-    padding: 0px;  
+    padding: 0px;
     align-items: middle;
-    background-color: white; 
+    background-color: white;
 }
+
 .search-box input {
     border: none;
     padding: 8px 10px;
     outline: none;
-    background-color: transparent   ;
+    background-color: transparent;
 }
-.search-box button{
-     border: none;
+
+.search-box button {
+    border: none;
     padding: 5px 7px;
     outline: none;
-    background-color:transparent;
+    background-color: transparent;
     cursor: pointer;
     border-left: 0.5px solid rgba(128, 128, 128, 0.329);
 
 }
-.search-box button span{
+
+.search-box button span {
     font-size: 20px;
 }
-.search-box button:hover span{
+
+.search-box button:hover span {
     color: blueviolet;
 }
-.banner{
+
+.banner {
     background: rgba(0, 0, 0, 0.7)url(/Images/background.jpg);
     background-blend-mode: darken;
-    background-size: cover; 
+    background-size: cover;
     height: 100vh;
     justify-content: center;
     text-align: center;
     color: white;
 }
-.banner-content{
+
+.banner-content {
     position: relative;
-    top: 40%;
+    top: 50%;
     transform: translateY(-50%);
+    align-items: center;
+    text-align: center;
+    justify-content: center;
 }
-.banner-content h1{
-    font-size: 40px;
+
+.banner-content h1 {
+    font-size: 45px;
     margin-bottom: 20px;
     color: aqua;
 }
-.banner-content p{
+
+.banner-content p {
     font-size: 18px;
     margin-bottom: 30px;
-    color: red;
-    background-color: whitesmoke;
-    border: 1px solid whitesmoke;
-    border-radius: 10px;
-    margin: 10px 300px;
+    color: white;
+    margin: 20px 300px;
+    margin-bottom: 50px;
 }
-.banner-content .btn{
+
+
+.banner-content .btn {
     text-decoration: none;
     background-color: rgb(134, 4, 255);
     color: white;
@@ -167,7 +183,8 @@ font-size: 17px;
     font-size: 20px;
     transition: background-color 0.3s, color 0.3s;
 }
-.banner-content .btn:hover{
+
+.banner-content .btn:hover {
     background-color: whitesmoke;
     color: black;
 }
