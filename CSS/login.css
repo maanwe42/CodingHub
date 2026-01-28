@@ -101,6 +101,8 @@
         height: auto;
         padding: 40px 30px;
         margin-top: 10%;
+        border: none;
+        border-radius: none;
     }
     
     .login-form input{
