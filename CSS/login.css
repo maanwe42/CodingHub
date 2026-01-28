@@ -139,7 +139,8 @@
         width: 100%;
         padding: 30px 20px;
         height: auto;
-        box-shadow: 1px 1px 2px 2px blueviolet;
+          border: none;
+        border-radius: none;
     }
     
     .login-form input{
