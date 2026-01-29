@@ -1,9 +1,10 @@
-*{
-    margin:0;
+* {
+    margin: 0;
     padding: 0;
-    font-family:sans-serif ;
+    font-family: sans-serif;
 }
-.signup-page{
+
+.signup-page {
     width: 100%;
     height: 100vh;
     display: flex;
@@ -11,7 +12,8 @@
     justify-content: center;
     align-items: center;
 }
-.signup-form{
+
+.signup-form {
     margin-top: 5%;
     width: 400px;
     height: 500px;
@@ -21,14 +23,16 @@
     border-radius: 14px;
 
 }
-.signup-form p{
+
+.signup-form p {
     font-size: 15px;
     font-weight: 500;
-    color:black;
+    color: black;
     margin-bottom: 3px;
     margin-left: 20px;
 }
-.signup-form input{
+
+.signup-form input {
     width: 80%;
     height: 30px;
     margin-bottom: 15px;
@@ -38,7 +42,8 @@
     border: 1px solid gray;
     border-radius: 5px;
 }
-.signup-form button{
+
+.signup-form button {
     height: 35px;
     width: 100px;
     margin-left: 20px;
@@ -51,17 +56,20 @@
     border-radius: 5px;
     cursor: pointer;
 }
-.signup-form button:hover{
+
+.signup-form button:hover {
     background-color: indigo;
 }
-.message{
+
+.message {
     margin-left: 20px;
     margin-top: 20px;
     font-size: 14px;
     color: red;
     font-weight: 500;
 }
-#signup{
+
+#signup {
     text-align: center;
     font-size: 30px;
     margin-top: -35px;
@@ -69,29 +77,33 @@
     color: blueviolet;
 }
 
-.footer{
+.footer {
     margin-left: 10px;
     margin-top: 50px;
     font-size: 14px;
     color: blueviolet;
 
-    
+
 }
-.footer ul li{
+
+.footer ul li {
     list-style: none;
     display: inline;
     margin: 0px 10px;
     cursor: pointer;
 }
-.footer ul li:hover{
+
+.footer ul li:hover {
     text-decoration: underline;
 }
-.footer a{
+
+.footer a {
     text-decoration: underline;
     color: blueviolet;
     font-size: 14px;
 }
-.footer a:hover{
+
+.footer a:hover {
     color: black;
 }
 
@@ -102,28 +114,28 @@
         padding: 40px 30px;
         margin-top: 10%;
     }
-    
+
     .signup-form input {
         width: 90%;
         height: 35px;
         margin-left: 10px;
     }
-    
+
     .signup-form p {
         margin-left: 10px;
     }
-    
+
     .signup-form button {
         margin-left: 10px;
         width: 90%;
     }
-    
+
     #signup {
         font-size: 24px;
         margin-top: -20px;
         margin-bottom: 25px;
     }
-    
+
     .message {
         margin-left: 10px;
     }
@@ -136,40 +148,39 @@
         height: auto;
         margin-top: 15%;
     }
-    
+
     .signup-form input {
         width: 100%;
         height: 40px;
         margin-left: 0;
         padding: 0px 8px;
     }
-    
+
     .signup-form p {
         margin-left: 0;
         font-size: 13px;
     }
-    
+
     .signup-form button {
         width: 100%;
         margin-left: 0;
         height: 40px;
         font-size: 14px;
     }
-    
+
     #signup {
         font-size: 20px;
         margin-top: -15px;
         margin-bottom: 20px;
     }
-    
+
     .message {
         margin-left: 0;
         font-size: 12px;
     }
-    
+
     .footer {
         margin-left: 0;
         font-size: 12px;
     }
 }
-
