@@ -49,22 +49,23 @@ p {
     list-style-type: square;
 }
 
-.web_list {
+.web_list,.web_types {
     padding-left: 100px;
     color: black;
 }
 
-.web_list h2 {
+.web_list h2,.web_types h2 {
     color: blueviolet;
     font-size: 20px;
     font-weight: bold;
 }
 
-.web_list li {
+.web_list li,.web_types li {
     list-style-type: square;
+    width: 75%;
 }
 
-.web_list-top {
+.web_list-top,.front-end {
     padding-left: 60px;
     color: black;
     margin-bottom: 15px;
@@ -74,4 +75,17 @@ p {
 
 .web_list-top li {
     list-style-type: disc;
+}
+.languages{
+    padding-left: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.languages li {
+    list-style-type: lower-alpha;
+    padding-top: 4px;
+}
+.languages li a {
+    color: purple;
+    text-decoration: underline;
 }
