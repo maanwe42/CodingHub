@@ -9,6 +9,7 @@ main {
     display: flex;
     flex-direction: column;
     margin-top: 60px;
+    margin-bottom: 60px;
     width: 90%;
     margin-left: auto;
 }
@@ -65,7 +66,7 @@ p {
     width: 75%;
 }
 
-.web_list-top,.front-end {
+.web_list-top,.front-end,.back-end,.full-stack {
     padding-left: 60px;
     color: black;
     margin-bottom: 15px;
@@ -86,6 +87,6 @@ p {
     padding-top: 4px;
 }
 .languages li a {
-    color: purple;
+    color: blueviolet;
     text-decoration: underline;
 }
