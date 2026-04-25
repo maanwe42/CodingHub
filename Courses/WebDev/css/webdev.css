@@ -28,7 +28,6 @@ h1 {
     color: blueviolet;
     font-weight: bold;
     font-size: 25px;
-    font-weight: bold;
 }
 
 p {
@@ -50,43 +49,202 @@ p {
     list-style-type: square;
 }
 
-.web_list,.web_types {
+.web_list,
+.web_types {
     padding-left: 100px;
     color: black;
 }
 
-.web_list h2,.web_types h2 {
+.web_list h2,
+.web_types h2 {
     color: blueviolet;
     font-size: 20px;
     font-weight: bold;
 }
 
-.web_list li,.web_types li {
+.web_list li,
+.web_types li {
     list-style-type: square;
     width: 75%;
 }
 
-.web_list-top,.front-end,.back-end,.full-stack {
+.web_list-top,
+.front-end,
+.back-end,
+.full-stack {
     padding-left: 60px;
     color: black;
     margin-bottom: 15px;
     font-size: 18px;
-
 }
 
 .web_list-top li {
     list-style-type: disc;
 }
-.languages{
+
+.languages {
     padding-left: 40px;
     padding-top: 10px;
     padding-bottom: 10px;
 }
+
 .languages li {
     list-style-type: lower-alpha;
     padding-top: 4px;
 }
+
 .languages li a {
     color: blueviolet;
     text-decoration: underline;
 }
+
+.image {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px;
+    text-align: center;
+    margin-left: 0;
+}
+
+.image li {
+    list-style-type: none;
+    padding-bottom: 10px;
+    font-size: 25px;
+    font-weight: bolder;
+}
+
+.image img {
+    width: 80%;
+    height: auto;
+    border: 2px solid blueviolet;
+    border-radius: 10px;
+}
+
+.image li img:hover {
+    scale: 3.0;
+}
+
+/* Media queries for responsiveness */
+
+/* Mobile devices (up to 768px) */
+@media screen and (max-width: 768px) {
+    main {
+        width: 100%;
+        margin-left: 0;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
+    #main-heading {
+        font-size: 28px;
+        padding-top: 20px;
+    }
+
+    h1 {
+        font-size: 20px;
+        padding: 15px;
+    }
+
+    p {
+        margin-left: 20px;
+        padding: 15px;
+        font-size: 16px;
+    }
+
+    .list {
+        padding-left: 50px;
+        font-size: 16px;
+    }
+
+    .web_list,
+    .web_types {
+        padding-left: 30px;
+    }
+
+    .web_list h2,
+    .web_types h2 {
+        font-size: 18px;
+    }
+
+    .web_list li,
+    .web_types li {
+        width: 90%;
+    }
+
+    .web_list-top,
+    .front-end,
+    .back-end,
+    .full-stack {
+        padding-left: 20px;
+        font-size: 16px;
+    }
+
+    .languages {
+        padding-left: 20px;
+    }
+
+    .image li {
+        font-size: 20px;
+    }
+
+    .image img {
+        width: 95%;
+    }
+
+    .image li img:hover {
+        scale: 1.5; /* Reduced scale for mobile */
+    }
+}
+
+/* Tablet devices (769px to 1024px) */
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    main {
+        width: 95%;
+    }
+
+    #main-heading {
+        font-size: 32px;
+    }
+
+    h1 {
+        font-size: 22px;
+    }
+
+    p {
+        margin-left: 30px;
+        font-size: 17px;
+    }
+
+    .list {
+        padding-left: 100px;
+    }
+
+    .web_list,
+    .web_types {
+        padding-left: 60px;
+    }
+
+    .web_list li,
+    .web_types li {
+        width: 80%;
+    }
+
+    .web_list-top,
+    .front-end,
+    .back-end,
+    .full-stack {
+        padding-left: 40px;
+    }
+
+    .languages {
+        padding-left: 30px;
+    }
+
+    .image img {
+        width: 85%;
+    }
+}
+
+/* Desktop devices (1025px and up) - default styles apply */
